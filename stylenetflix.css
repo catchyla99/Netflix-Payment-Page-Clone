@@ -105,6 +105,95 @@ li>ul{
     font-size: 30px;
 }
 
+@media (max-width: 600px){
+
+    .Plans{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 60px;
+        margin-bottom: 80px;
+        gap: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+    
+    
+    }
+
+    .Plans>div{
+    
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+        padding: 20px;
+        border-radius: 30px;
+        width: 80%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .Plans>div:hover{
+        scale: 1.05;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+        padding: 20px;
+        border-radius: 30px;
+        
+    }
+
+    .line{
+        display: flex;
+        padding-left: 0px;
+        justify-content: center;
+        font-size: 24px;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1121px){
+    
+    .Plans{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 60px;
+        margin-bottom: 80px;
+        gap: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+    
+    
+    }
+
+    .Plans>div{
+    
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+        padding: 20px;
+        border-radius: 30px;
+        width: 40%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .line{
+        display: flex;
+        padding-left: 0px;
+        justify-content: center;
+        font-size: 24px;
+    }
+
+    .Plans>div:hover{
+        scale: 1.05;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+        padding: 20px;
+        border-radius: 30px;
+        margin: 5px;
+        
+    }
+
+}
+
 footer{
     margin-left: 40px;
     margin-right: 40px;
